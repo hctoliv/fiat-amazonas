@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fiat Amazonas Mooca | Concessionária Fiat no Brás, São Paulo</title>
+<meta name="description" content="Concessionária Fiat Amazonas Mooca, na Av. Alcântara Machado, 2132, Brás. Carros 0 km, seminovos, vendas diretas e oficina. Uma loja do Grupo Amazonas, no mercado desde 1979.">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:title" content="Fiat Amazonas Mooca">
+<meta property="og:description" content="Concessionária Fiat na Av. Alcântara Machado, 2132, Brás, São Paulo.">
+<meta property="og:image" content="img/cronos.jpg">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=3">
+</head>
+<body>
+
+<header class="hd" id="hd">
+  <div class="wrap hd__in">
+    <a href="#topo" class="hd__logo" aria-label="Fiat Amazonas Mooca, início"><img src="img/logo.png" alt="Fiat | Grupo Amazonas" width="426" height="114"></a>
+    <nav class="hd__nav" aria-label="Principal">
+      <a href="#modelos">Modelos</a>
+      <a href="#comprar">Como comprar</a>
+      <a href="#oficina">Oficina</a>
+      <a href="#loja">A loja</a>
+      <a href="#grupo">Grupo Amazonas</a>
+    </nav>
+    <div class="hd__cta">
+      <a class="hd__tel" href="tel:+551127996000">(11) 2799-6000</a>
+      <a class="btn btn--red btn--sm" href="#contato">Fale com a gente</a>
+    </div>
+    <button class="hd__menu" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+  </div>
+  <div class="menu" id="menu" hidden>
+    <nav class="wrap menu__nav" aria-label="Menu">
+      <a href="#modelos">Modelos</a>
+      <a href="#comprar">Como comprar</a>
+      <a href="#oficina">Oficina</a>
+      <a href="#loja">A loja</a>
+      <a href="#grupo">Grupo Amazonas</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <div class="wrap menu__foot">
+      <a class="btn btn--red" href="https://wa.me/551137944040?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Fiat%20Amazonas%20Mooca." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+      <a class="btn btn--line" href="tel:+551127996000">Ligar (11) 2799-6000</a>
+    </div>
+  </div>
+</header>
+
+<main id="topo">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero__top">
+        <div>
+          <p class="eyebrow"><span class="dot"></span>Concessionária Fiat · Mooca, São Paulo</p>
+          <h1 class="hero__title">O seu próximo Fiat está na Alcântara Machado.</h1>
+        </div>
+        <div class="hero__side">
+          <p class="lead">Carros 0 km, seminovos, vendas diretas e oficina num só endereço, no Brás. Uma loja do Grupo Amazonas, no mercado automotivo desde 1979.</p>
+          <div class="btns">
+            <a class="btn btn--red" href="#modelos">Ver os modelos</a>
+            <a class="btn btn--line" href="#loja">Como chegar</a>
+          </div>
+        </div>
+      </div>
+      <figure class="hero__media">
+        <img src="img/cronos.jpg" alt="Fiat Cronos preto no showroom, com o letreiro Fiat na parede" width="1280" height="780" fetchpriority="high">
+        <figcaption class="hero__card">
+          <span class="hero__card-k">Endereço</span>
+          <strong>Av. Alcântara Machado, 2132</strong>
+          <span>Brás, São Paulo · CEP 03102-004</span>
+        </figcaption>
+      </figure>
+      <dl class="facts">
+        <div><dt>1979</dt><dd>fundação do Grupo Amazonas</dd></div>
+        <div><dt>46+</dt><dd>anos de mercado automotivo</dd></div>
+        <div><dt>30+</dt><dd>unidades na Grande São Paulo</dd></div>
+        <div><dt>11</dt><dd>modelos Fiat, do Mobi à Ducato</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- MODELOS -->
+  <section class="sec" id="modelos">
+    <div class="wrap">
+      <div class="sec__head">
+        <div>
+          <p class="eyebrow">Modelos</p>
+          <h2 class="h2">A linha Fiat completa, do Mobi à Ducato.</h2>
+        </div>
+        <div class="chips" role="tablist" aria-label="Filtrar modelos">
+          <button class="chip is-on" data-f="all" role="tab" aria-selected="true">Todos</button>
+          <button class="chip" data-f="hatch" role="tab" aria-selected="false">Hatch e sedã</button>
+          <button class="chip" data-f="suv" role="tab" aria-selected="false">SUV</button>
+          <button class="chip" data-f="picape" role="tab" aria-selected="false">Picapes</button>
+          <button class="chip" data-f="util" role="tab" aria-selected="false">Utilitários</button>
+        </div>
+      </div>
+      <div class="cars" id="cars"></div>
+      <p class="note">Imagens meramente ilustrativas. Versões, preços e condições variam conforme estoque: consulte a equipe da loja.</p>
+    </div>
+  </section>
+
+  <!-- COMO COMPRAR -->
+  <section class="sec sec--soft" id="comprar">
+    <div class="wrap">
+      <div class="sec__head">
+        <div>
+          <p class="eyebrow">Como comprar</p>
+          <h2 class="h2">Do jeito que fizer sentido pra você.</h2>
+        </div>
+        <p class="sec__intro">Pergunte sobre prazo, valor e forma de pagamento antes de decidir. O orçamento é sem compromisso.</p>
+      </div>
+      <div class="ways">
+        <article class="way">
+          <span class="way__n">01</span>
+          <h3>Zero km</h3>
+          <p>Toda a linha Fiat de passeio, picapes e utilitários, com estoque atualizado e um consultor pra te acompanhar do test drive à entrega.</p>
+          <a href="#contato" data-interesse="Comprar um 0 km">Falar com um consultor</a>
+        </article>
+        <article class="way">
+          <span class="way__n">02</span>
+          <h3>Seminovos</h3>
+          <p>Usados revisados do Grupo Amazonas, com procedência e garantia. Também avaliamos o seu carro na troca.</p>
+          <a href="#contato" data-interesse="Seminovo ou troca">Consultar seminovos</a>
+        </article>
+        <article class="way">
+          <span class="way__n">03</span>
+          <h3>Vendas diretas</h3>
+          <p>Condições especiais para PJ, frotistas, PCD, produtor rural, taxistas, autoescolas e governo.</p>
+          <a href="#contato" data-interesse="Vendas diretas">Ver condições</a>
+        </article>
+        <article class="way">
+          <span class="way__n">04</span>
+          <h3>Fiat por Assinatura</h3>
+          <p>O serviço oficial de assinatura de veículos 0 km da Fiat, pra quem prefere usar sem precisar comprar.</p>
+          <a href="#contato" data-interesse="Fiat por Assinatura">Saber mais</a>
+        </article>
+        <article class="way">
+          <span class="way__n">05</span>
+          <h3>Consórcio Amazonas</h3>
+          <p>O consórcio próprio do grupo, criado em 1984 pra facilitar o caminho até o carro novo.</p>
+          <a href="#contato" data-interesse="Consórcio">Simular consórcio</a>
+        </article>
+        <article class="way way--red">
+          <h3>Não sabe por onde começar?</h3>
+          <p>Conta pra gente o que você procura que a equipe monta as opções.</p>
+          <a class="btn btn--white" href="#contato">Pedir orçamento</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFICINA -->
+  <section class="sec sec--dark" id="oficina">
+    <div class="wrap">
+      <div class="shop">
+        <div class="shop__intro">
+          <p class="eyebrow eyebrow--light">Oficina e pós-venda</p>
+          <h2 class="h2">Revisão, peças originais e um orçamento que você entende.</h2>
+          <p class="lead">Técnicos que seguem os procedimentos Fiat, peças originais ou homologadas e nota fiscal com tudo o que foi feito. O histórico fica registrado, o que vale muito na hora de revender.</p>
+          <div class="shop__tip">
+            <strong>Quando revisar?</strong>
+            <span>O manual recomenda revisão a cada 10 mil km ou 6 meses, o que vier primeiro.</span>
+          </div>
+          <a class="btn btn--red" href="#contato" data-interesse="Revisão ou oficina">Agendar revisão</a>
+        </div>
+        <div class="shop__body">
+          <ol class="steps">
+            <li><span>1</span><div><h3>Diagnóstico</h3><p>O técnico examina o carro, testa os sistemas e registra tudo num checklist.</p></div></li>
+            <li><span>2</span><div><h3>Orçamento sem compromisso</h3><p>Peças, mão de obra e prazo descritos. Você aprova, ajusta ou pensa com calma.</p></div></li>
+            <li><span>3</span><div><h3>Agendamento</h3><p>Data e hora combinadas com a sua rotina, com prazo estimado de entrega.</p></div></li>
+            <li><span>4</span><div><h3>Execução e entrega</h3><p>Qualquer achado extra é avisado antes. No fim, teste, limpeza e documentação completa.</p></div></li>
+          </ol>
+          <ul class="services">
+            <li>Revisão programada</li><li>Mecânica geral</li><li>Troca de óleo</li><li>Freios e suspensão</li><li>Alinhamento e balanceamento</li><li>Injeção eletrônica</li><li>Elétrica automotiva</li><li>Ar-condicionado</li><li>Funilaria e pintura</li><li>Estética automotiva</li><li>Vistoria</li><li>Recall e garantia</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- A LOJA -->
+  <section class="sec" id="loja">
+    <div class="wrap">
+      <div class="sec__head">
+        <div>
+          <p class="eyebrow">A loja</p>
+          <h2 class="h2">Fiat Amazonas Mooca, na Radial Leste.</h2>
+        </div>
+        <p class="sec__intro">Na Av. Alcântara Machado, a poucos minutos do centro e com acesso fácil pra quem vem da Zona Leste.</p>
+      </div>
+      <div class="store">
+        <figure class="store__photo">
+          <img src="img/loja-mooca.jpg" alt="Fachada da Fiat Amazonas Mooca na Av. Alcântara Machado" width="1360" height="990" loading="lazy">
+        </figure>
+        <div class="store__info">
+          <ul class="info">
+            <li>
+              <span class="info__k">Endereço</span>
+              <span class="info__v">Av. Alcântara Machado, 2132<br>Brás, São Paulo, SP · 03102-004</span>
+            </li>
+            <li>
+              <span class="info__k">Telefone</span>
+              <a class="info__v" href="tel:+551127996000">(11) 2799-6000</a>
+            </li>
+            <li>
+              <span class="info__k">WhatsApp</span>
+              <a class="info__v" href="https://wa.me/551137944040?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Fiat%20Amazonas%20Mooca." target="_blank" rel="noopener">(11) 3794-4040</a>
+            </li>
+            <li>
+              <span class="info__k">Google</span>
+              <a class="info__v" href="https://search.google.com/local/reviews?placeid=ChIJc3q28jpZzpQRamqLtwE_2v0" target="_blank" rel="noopener">Nota 4,0 · 984 avaliações</a>
+            </li>
+          </ul>
+          <div class="btns">
+            <a class="btn btn--dark" href="https://www.google.com/maps/dir/?api=1&destination=-23.5493331%2C-46.6044759&travelmode=driving" target="_blank" rel="noopener">Abrir no Google Maps</a>
+            <a class="btn btn--line" href="https://www.waze.com/ul?ll=-23.5493331%2C-46.6044759&navigate=yes&zoom=17" target="_blank" rel="noopener">Abrir no Waze</a>
+          </div>
+          <div class="store__map" id="map" data-src="https://maps.google.com/maps?q=-23.5493331,-46.6044759&z=16&hl=pt-BR&output=embed">
+            <span>Carregando mapa…</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GRUPO -->
+  <section class="sec sec--soft" id="grupo">
+    <div class="wrap">
+      <div class="group">
+        <div class="group__text">
+          <p class="eyebrow">Grupo Amazonas</p>
+          <h2 class="h2">Uma loja de um dos maiores grupos automotivos do país.</h2>
+          <p class="lead">O Grupo Amazonas começou com uma loja multimarcas em Guarulhos, em 1979. Hoje reúne mais de 30 unidades na Grande São Paulo, com carros novos e seminovos, oficina, peças e pós-venda.</p>
+          <ul class="values">
+            <li>Foco no cliente</li><li>Excelência operacional</li><li>Ética e transparência</li><li>Trabalho em equipe</li>
+          </ul>
+        </div>
+        <ol class="timeline">
+          <li><span class="timeline__y">1979</span><div><h3>Fundação</h3><p>Nasce o Grupo Amazonas, com uma loja multimarcas em Guarulhos.</p></div></li>
+          <li><span class="timeline__y">1984</span><div><h3>Consórcio</h3><p>Criação do consórcio próprio para financiar os clientes.</p></div></li>
+          <li><span class="timeline__y">1994</span><div><h3>Primeira concessionária</h3><p>Inauguração da primeira concessionária do grupo.</p></div></li>
+          <li><span class="timeline__y">Hoje</span><div><h3>Mais de 30 unidades</h3><p>Fiat, Jeep, Peugeot, Citroën, Ford, Renault, Leapmotor, Geely, Omoda &amp; Jaecoo e GAC.</p></div></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="sec" id="contato">
+    <div class="wrap">
+      <div class="contact">
+        <div class="contact__text">
+          <p class="eyebrow">Contato</p>
+          <h2 class="h2">Fale com a Fiat Amazonas Mooca.</h2>
+          <p class="lead">Preencha em poucos segundos e continue a conversa direto no WhatsApp da loja, com a mensagem já pronta.</p>
+          <ul class="contact__list">
+            <li><span>Telefone</span><a href="tel:+551127996000">(11) 2799-6000</a></li>
+            <li><span>WhatsApp</span><a href="https://wa.me/551137944040" target="_blank" rel="noopener">(11) 3794-4040</a></li>
+            <li><span>E-mail</span><a href="mailto:32n.web@grupoamazonas.com.br">32n.web@grupoamazonas.com.br</a></li>
+            <li><span>Instagram</span><a href="https://instagram.com/grupoamazonas" target="_blank" rel="noopener">@grupoamazonas</a></li>
+          </ul>
+        </div>
+        <form class="form" id="form" novalidate>
+          <div class="field">
+            <label for="f-nome">Seu nome</label>
+            <input id="f-nome" name="nome" autocomplete="name" required placeholder="Como podemos te chamar?">
+          </div>
+          <div class="field">
+            <label for="f-int">O que você procura</label>
+            <select id="f-int" name="interesse">
+              <option>Comprar um 0 km</option>
+              <option>Seminovo ou troca</option>
+              <option>Vendas diretas</option>
+              <option>Fiat por Assinatura</option>
+              <option>Consórcio</option>
+              <option>Revisão ou oficina</option>
+              <option>Peças e acessórios</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-mod">Modelo <em>(opcional)</em></label>
+            <select id="f-mod" name="modelo">
+              <option value="">Ainda não sei</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-msg">Mensagem <em>(opcional)</em></label>
+            <textarea id="f-msg" name="mensagem" rows="3" placeholder="Ex.: quero simular um financiamento, tenho um carro pra dar na troca…"></textarea>
+          </div>
+          <button class="btn btn--red btn--full" type="submit">Continuar no WhatsApp</button>
+          <p class="form__note">Abrimos o WhatsApp com a sua mensagem. Nada é enviado antes de você tocar em enviar.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft__top">
+      <img class="ft__logo" src="img/logo.png" alt="Fiat | Grupo Amazonas" width="426" height="114" loading="lazy">
+      <nav class="ft__nav" aria-label="Rodapé">
+        <a href="#modelos">Modelos</a><a href="#comprar">Como comprar</a><a href="#oficina">Oficina</a><a href="#loja">A loja</a><a href="#grupo">Grupo Amazonas</a><a href="#contato">Contato</a>
+      </nav>
+    </div>
+    <div class="ft__mid">
+      <p><strong>Fiat Amazonas Mooca</strong><br>Av. Alcântara Machado, 2132, Brás, São Paulo, SP, 03102-004</p>
+      <p><a href="tel:+551127996000">(11) 2799-6000</a><br><a href="mailto:32n.web@grupoamazonas.com.br">32n.web@grupoamazonas.com.br</a></p>
+      <p>CNPJ 68.400.449/0014-03<br><a href="https://grupoamazonas.com.br" target="_blank" rel="noopener">grupoamazonas.com.br</a></p>
+    </div>
+    <p class="ft__legal">Imagens meramente ilustrativas. Preços, versões e condições estão sujeitos à disponibilidade em estoque e podem mudar sem aviso prévio. Consulte a loja. © 2026 Fiat Amazonas Mooca · Grupo Amazonas.</p>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/551137944040?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Fiat%20Amazonas%20Mooca." target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+  <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+</a>
+
+<script src="main.js?v=2"></script>
+</body>
+</html>
