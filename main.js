@@ -22,7 +22,7 @@
   var modSel = document.getElementById('f-mod');
   grid.innerHTML = CARS.map(function (c) {
     return '<article class="car rv" data-cat="' + c.cat + '">' +
-      '<div class="car__img"><img src="img/' + c.id + '-720.jpg" srcset="img/' + c.id + '-720.jpg 720w, img/' + c.id + '.jpg 1280w" sizes="(max-width: 640px) 82vw, (max-width: 960px) 48vw, 400px" alt="Fiat ' + c.name + '" loading="lazy" width="720" height="440"></div>' +
+      '<div class="car__img"><img src="img/card-' + c.id + '-720.jpg" srcset="img/card-' + c.id + '-720.jpg 720w, img/card-' + c.id + '.jpg 1248w" sizes="(max-width: 640px) 82vw, (max-width: 960px) 48vw, 400px" alt="Fiat ' + c.name + '" loading="lazy" width="720" height="450"></div>' +
       '<div class="car__body"><span class="car__cat">' + c.label + '</span><h3 class="car__name">' + c.name + '</h3><p class="car__desc">' + c.desc + '</p>' +
       '<button class="car__go" type="button" data-model="' + c.name + '">Consultar condições ' + arrow + '</button></div></article>';
   }).join('');
